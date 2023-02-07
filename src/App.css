@@ -24,6 +24,13 @@ body {
   box-shadow: 2px 2px black;
 }
 
+.navbar {
+  padding: 5px 10px;
+  align-content: space-between;
+}
+
+
+
 /* .btn:hover {
   padding: 9px 22px;
   font-size: 15px;

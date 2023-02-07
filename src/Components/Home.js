@@ -7,7 +7,7 @@ const Home = () => {
         <NavBar />
 
         <section className="section">
-            <div>Home Page</div>
+            {/* <div>Home Page</div> */}
             <Outlet />
         </section>
         </>
