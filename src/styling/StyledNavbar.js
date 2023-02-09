@@ -15,8 +15,15 @@ const NavBar = () => {
             style={({ isActive }) => {
                 return { color: isActive ? 'red' : 'grey' }
             }}>
-                About Us</NavLink>
-        <NavLink to='/products' >Products</NavLink>
+                About Us
+        </NavLink>
+        <NavLink 
+            to='/products' 
+            style={({ isActive }) => {
+                return { color: isActive ? 'red' : 'grey' }
+            }}>
+                Products
+        </NavLink>
     </nav>
   )
 }
