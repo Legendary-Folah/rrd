@@ -5,9 +5,7 @@ const Home = () => {
     return (
         <>
         <NavBar />
-
         <section className="section">
-            {/* <div>Home Page</div> */}
             <Outlet />
         </section>
         </>
