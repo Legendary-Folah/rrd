@@ -13,14 +13,14 @@ const NavBar = () => {
         <NavLink
             to='/about' 
             style={({ isActive }) => {
-                return { color: isActive ? 'red' : 'grey' }
+                return { color: isActive ? 'red' : 'whitesmoke' }
             }}>
                 About Us
         </NavLink>
         <NavLink 
             to='/products' 
             style={({ isActive }) => {
-                return { color: isActive ? 'red' : 'grey' }
+                return { color: isActive ? 'red' : 'whitesmoke' }
             }}>
                 Products
         </NavLink>
