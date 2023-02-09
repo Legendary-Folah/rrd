@@ -5,6 +5,7 @@ import Products from './Components/Products';
 import Home from './Components/Home';
 import Error from './Components/Error';
 import SharedLayout from './Components/SharedLayout'
+import SingleProduct from './Components/SingleProduct';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='about' element={<About />}/>
             <Route path='products' element={<Products />}/>
+            <Route path='products/:productID' element={<SingleProduct />} />
             <Route path='*' element={<Error />}/>
             </Route>
         </Routes>
