@@ -1,12 +1,8 @@
 const Home = () => {
     return (
-        <>
-        <NavBar />
         <section className="section">
-            <Outlet />
+            <h2>Home page</h2>
         </section>
-        </>
-       
     )
 }
 
