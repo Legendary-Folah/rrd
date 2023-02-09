@@ -1,7 +1,7 @@
 const SingleProduct = () => {
     return (
         <section className="section product">
-            <h3>SIngle Product page</h3>
+            <h3>Single Product page</h3>
         </section>
     )
 }
