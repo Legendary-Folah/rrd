@@ -1,11 +1,11 @@
 import { Link, Outlet } from "react-router-dom"
 import NavBar from "./NavBar"
-import StyledNavbr from './'
+import StyledNavbr from '../styling/StyledNavbar'
 
 const Home = () => {
     return (
         <>
-        <NavBar />
+        <StyledNavbr />
         <Outlet />
         </>
        
