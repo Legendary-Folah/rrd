@@ -6,7 +6,7 @@ const NavBar = () => {
         <NavLink 
             to='/' 
             style={({ isActive }) => {
-                return { color: isActive ? 'red' : 'grey' }
+                return { color: isActive ? 'red' : 'whitesmoke' }
             }}>
                 Home
         </NavLink>
