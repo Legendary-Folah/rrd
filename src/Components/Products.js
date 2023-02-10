@@ -7,9 +7,11 @@ const Products = () => {
             <h2>Products</h2>
             <div className="products">
                 {products.map((product) => {
-                    return <article key={product.id}>
+                    return (
+                        <article key={product.id}>
                         <h5>{product.name}</h5>
                     </article>
+                    )
                 })}
             </div>
             <Link to={`/products/${products.id}`}>more info</Link>
