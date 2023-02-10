@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './Components/About';
@@ -8,6 +9,8 @@ import SharedLayout from './Components/SharedLayout'
 import SingleProduct from './Components/SingleProduct';
 
 function App() {
+
+  const [user, setUser] = useState(null)
   return (
     <BrowserRouter>
         <Routes>
