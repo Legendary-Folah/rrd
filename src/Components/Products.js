@@ -11,12 +11,12 @@ const Products = () => {
                         <article key={product.id}>
                         <h5>{product.name}</h5>
                     </article>
-                    )
+                    );
                 })}
             </div>
             <Link to={`/products/${products.id}`}>more info</Link>
         </section>
-    )
+    );
 }
-
+;
 export default Products
