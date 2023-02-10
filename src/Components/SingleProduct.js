@@ -10,7 +10,8 @@ const SingleProduct = () => {
 
     return (
         <section className="section product">
-            <h5>{productID}</h5>
+            <img src={image} />
+            <h5>{name}</h5>
             <Link to='/products'>Back to products</Link>
         </section>
     )
