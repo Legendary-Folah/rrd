@@ -1,7 +1,7 @@
-const Dashboard = () => {
+const Dashboard = ({ user }) => {
     return (
         <section className="section">
-            <h3>Dashboard panel</h3>
+            <h3></h3>
         </section>
     )
 }
