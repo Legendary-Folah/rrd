@@ -270,6 +270,7 @@ ul {
   max-width: var(--max-width);
   margin: 0 auto;
   display: flex;
+  justify-content: flex-end;
   gap: 1rem;
 }
 
