@@ -73,6 +73,7 @@ body {
 ::placeholder {
   font-family: inherit;
   color: var(--grey-400);
+  
 }
 .form-alert {
   color: var(--red-dark);
