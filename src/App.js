@@ -7,6 +7,7 @@ import Home from './Components/Home';
 import Error from './Components/Error';
 import SharedLayout from './Components/SharedLayout'
 import SingleProduct from './Components/SingleProduct';
+import Login from './Components/Login';
 
 function App() {
 
