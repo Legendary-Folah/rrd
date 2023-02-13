@@ -104,6 +104,41 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding: 2rem 0;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  color: var(--grey-500);
+}
+
+.active {
+  color: var(--primary-500);
+}
+.products article {
+  margin-bottom: 1rem;
+}
+
+.products h5 {
+  margin-bottom: 0;
+}
+
+.product img {
+  width: 200px;
+  height: 150px;
+}
+
 
 
 
