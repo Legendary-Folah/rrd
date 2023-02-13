@@ -14,7 +14,7 @@ body {
 .btn {
   background-color: blue;
   text-decoration: none;
-  border: none;
+  border: transparent;
   padding: 7px 20px;
   text-align: center;
   display: inline-block;
