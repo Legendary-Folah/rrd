@@ -29,6 +29,9 @@ const Login = () => {
                         onChange={() => {}}
                     />
                 </div>
+                <button type='submit' className='btn btn-block'>
+                    Login
+                </button>
             </form>
         </section>
     )
