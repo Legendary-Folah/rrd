@@ -22,6 +22,7 @@ body {
   border-radius: 6px;
   color: white;
   box-shadow: 2px 2px black;
+  box-shadow: var(--shadow-1);
 }
 
 .navbar {
