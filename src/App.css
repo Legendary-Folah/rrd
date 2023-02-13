@@ -73,12 +73,35 @@ body {
 ::placeholder {
   font-family: inherit;
   color: var(--grey-400);
-  
+
 }
 .form-alert {
   color: var(--red-dark);
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form h5 {
+  text-align: center;
+}
+.form .btn {
+  margin-top: 0.5rem;
+}
+.loading {
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid var(--grey-400);
+  border-radius: 50%;
+  border-top-color: var(--primary-500);
+  animation: spinner 0.6s linear infinite;
+}
+.loading {
+  margin: 0 auto;
 }
 
 
