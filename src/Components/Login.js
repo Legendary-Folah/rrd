@@ -11,7 +11,7 @@ const Login = ({ setUser }) => {
         e.preventDefault();
         // console.log(name, email);
         if (!name || !email) return;
-        setUser({ name:name, email:email })
+        setUser({ name:name, email:email });
     }
 
     return (
