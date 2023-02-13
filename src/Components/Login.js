@@ -33,7 +33,9 @@ const Login = () => {
                         type='email'
                         className='form-input'
                         value={email}
-                        onChange={() => {}}
+                        onChange={(e) => {
+                            setEmail(e.target.value)
+                        }}
                     />
                 </div>
                 <button type='submit' className='btn btn-block'>
