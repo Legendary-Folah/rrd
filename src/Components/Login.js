@@ -18,6 +18,17 @@ const Login = () => {
                         onChange={() => {}}
                     />
                 </div>
+                <div className='form-row'>
+                    <label htmlFor='email' className='form-label'>
+                        Email
+                    </label>
+                    <input 
+                        type='email'
+                        className='form-input'
+                        value={name}
+                        onChange={() => {}}
+                    />
+                </div>
             </form>
         </section>
     )
