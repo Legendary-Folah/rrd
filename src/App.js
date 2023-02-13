@@ -21,6 +21,7 @@ function App() {
             <Route path='products' element={<Products />}/>
             <Route path='products/:productID' element={<SingleProduct />} />
             <Route path='login' element={<Login  setUser={setUser}/>} />
+            <Route path='dashboard' element={<Dashboard  user={user}/>} />
             <Route path='*' element={<Error />}/>
             </Route>
         </Routes>
