@@ -3,6 +3,11 @@ import { useState } from 'react'
 const Login = () => {
     const [ name, setName ] = useState('')
     const [ email, setEmail ] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
+
     return (
         <section className='section'>
             <form className='form' onSubmit={handleSubmit}>
