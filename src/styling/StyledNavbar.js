@@ -24,6 +24,13 @@ const NavBar = () => {
             }}>
                 Products
         </NavLink>
+        <NavLink
+            to='/login' 
+            style={({ isActive }) => {
+                return { color: isActive ? 'red' : 'whitesmoke' }
+            }}>
+                Log In
+        </NavLink>
     </nav>
   )
 }
