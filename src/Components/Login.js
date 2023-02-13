@@ -5,7 +5,7 @@ const Login = () => {
     const [ email, setEmail ] = useState('')
     return (
         <section className='section'>
-            <form className='form'>
+            <form className='form' onSubmit={handleSubmit}>
                 <h3>Login</h3>
                 <div className='form-row'>
                     <label htmlFor='name' className='form-label'>
@@ -25,7 +25,7 @@ const Login = () => {
                     <input 
                         type='email'
                         className='form-input'
-                        value={name}
+                        value={email}
                         onChange={() => {}}
                     />
                 </div>
