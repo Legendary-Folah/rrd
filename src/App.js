@@ -8,6 +8,7 @@ import Error from './Components/Error';
 import SharedLayout from './Components/SharedLayout'
 import SingleProduct from './Components/SingleProduct';
 import Login from './Components/Login';
+import Dashboard from './Components/Dashboard';
 
 function App() {
 
