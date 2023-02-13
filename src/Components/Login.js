@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Login = () => {
+const Login = ({ setUser }) => {
     const [ name, setName ] = useState('')
     const [ email, setEmail ] = useState('')
 
@@ -11,6 +11,7 @@ const Login = () => {
         e.preventDefault();
         // console.log(name, email);
         if (!name || !email) return;
+        setUser({ name:name, email:email })
     }
 
     return (
