@@ -118,6 +118,7 @@ body {
   display: flex;
   gap: 1rem;
   text-decoration: none;
+  justify-content: flex-end;
 }
 
 .link {
