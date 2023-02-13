@@ -20,7 +20,9 @@ const Login = () => {
                         type='text'
                         className='form-input'
                         value={name}
-                        onChange={() => {}}
+                        onChange={(e) => {
+                            setName(e.target.value)
+                        }}
                     />
                 </div>
                 <div className='form-row'>
