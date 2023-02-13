@@ -3,3 +3,5 @@ const Login = () => {
         <div>Log In</div>
     )
 }
+
+export default Login
