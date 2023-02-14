@@ -26,8 +26,8 @@ function App() {
             <Route path='dashboard' element={
               <ProtectedRoute user={user}>
               <Dashboard user={user}/>
-            </ProtectedRoute>
-            } />
+              </ProtectedRoute>
+            }/>
             <Route path='*' element={<Error />}/>
             </Route>
         </Routes>
