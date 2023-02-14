@@ -10,6 +10,7 @@ import SingleProduct from './Components/SingleProduct';
 import Login from './Components/Login';
 import Dashboard from './Components/Dashboard';
 import ProtectedRoute from './Components/ProtectedRoute';
+import SharedProduct from './Components/SharedProduct';
 
 function App() {
 

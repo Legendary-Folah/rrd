@@ -4,7 +4,6 @@ import products from "../Data";
 const Products = () => {
     return (
         <section className="section">
-            <h2>Products</h2>
             <div className="products">
                 {products.map((product) => {
                     return (
