@@ -21,7 +21,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='about' element={<About />}/>
             <Route path='products' element={<SharedProductLayout />}>
-            <Route path='products' element={<Products />}/>
+            <Route index element={<Products />}/>
             <Route path='products/:productID' element={<SingleProduct />} />
             </Route>
             <Route path='login' element={<Login setUser={setUser}/>} />
