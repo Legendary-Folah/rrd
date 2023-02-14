@@ -22,7 +22,7 @@ function App() {
             <Route path='about' element={<About />}/>
             <Route path='products' element={<SharedProductLayout />}>
             <Route index element={<Products />}/>
-            <Route path='products/:productID' element={<SingleProduct />} />
+            <Route path=':productID' element={<SingleProduct />} />
             </Route>
             <Route path='login' element={<Login setUser={setUser}/>} />
             <Route path='dashboard' element={
