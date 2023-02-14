@@ -22,7 +22,7 @@ function App() {
             <Route path='about' element={<About />}/>
             <Route path='products' element={<Products />}/>
             <Route path='products/:productID' element={<SingleProduct />} />
-            <Route path='login' element={<Login  setUser={setUser}/>} />
+            <Route path='login' element={<Login setUser={setUser}/>} />
             <Route path='dashboard' element={
               <ProtectedRoute user={user}>
               <Dashboard user={user}/>
