@@ -20,8 +20,10 @@ function App() {
             <Route path='/' element={<SharedLayout />}>
             <Route index element={<Home />} />
             <Route path='about' element={<About />}/>
+            <Route path='products' element={<SharedProductLayout />}>
             <Route path='products' element={<Products />}/>
             <Route path='products/:productID' element={<SingleProduct />} />
+            </Route>
             <Route path='login' element={<Login setUser={setUser}/>} />
             <Route path='dashboard' element={
               <ProtectedRoute user={user}>
