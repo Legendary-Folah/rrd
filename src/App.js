@@ -13,7 +13,6 @@ import ProtectedRoute from './Components/ProtectedRoute';
 import SharedProduct from './Components/SharedProduct';
 
 function App() {
-
   const [user, setUser] = useState(null)
   return (
     <BrowserRouter>
