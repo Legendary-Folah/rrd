@@ -1,6 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 const SharedProduct = () => {
     return (
-        <div>SharedProduct Page</div>
+        <>
+        <h2>Products</h2>
+        <Outlet />
+        </>
     )
 };
 
